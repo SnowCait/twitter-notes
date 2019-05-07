@@ -24,7 +24,7 @@ INSERT INTO `friendships_logs` (`following`, `followed`, `action`) VALUES (?, ?,
 
 # フォローを外す（申請制の場合は両方解除する）
 DELETE FROM `friendships` WHERE `following` = ? AND `followed` = ?;
-INSERT INTO `friendships_logs` (`action`, `following`, `followed`) VALUES (?, ?, ?);
+INSERT INTO `friendships_logs` (`following`, `followed`, `action`) VALUES (?, ?, ?);
 
 # フォローしている
 SELECT `followed` FROM `friendships` WHERE `following` = ?;
