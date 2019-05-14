@@ -1,6 +1,7 @@
 CREATE TABLE `friendships` (
 	`following` INT UNSIGNED NOT NULL,  # フォローしているユーザーID
 	`followed` INT UNSIGNED NOT NULL,   # フォローされているユーザーID
+	`created_at` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,  # このカラムを追加したのでインデックスは要再検討
 	PRIMARY KEY (`following`, `followed`),
 	KEY (`followed`, `following`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
@@ -20,17 +21,17 @@ PARTITION BY RANGE COLUMNS (`created_at`) (
 
 # フォローする（申請制の場合はフォローを返すことで承認とみなす）
 INSERT INTO `friendships` (`following`, `followed`) VALUES (?, ?);
-INSERT INTO `friendships_logs` (`following`, `followed`, `action`) VALUES (?, ?, ?);
+INSERT INTO `friendships_logs` (`following`, `followed`, `action`) VALUES (?, ?, ?);  # タイミングによっては created_at がずれるので SELECT INSERT にしたい
 
 # フォローを外す（申請制の場合は両方解除する）
 DELETE FROM `friendships` WHERE `following` = ? AND `followed` = ?;
 INSERT INTO `friendships_logs` (`following`, `followed`, `action`) VALUES (?, ?, ?);
 
 # フォローしている
-SELECT `followed` FROM `friendships` WHERE `following` = ?;
+SELECT `followed` FROM `friendships` WHERE `following` = ? ORDER BY `created_at` DESC LIMIT ?, ?;
 
 # フォローされている
-SELECT `following` FROM `friendships` WHERE `followed` = ?;
+SELECT `following` FROM `friendships` WHERE `followed` = ? ORDER BY `created_at` DESC LIMIT ?, ?;
 
 # 相互フォロー（申請制の場合はフレンド）
 SELECT `a`.`followed` FROM `friendships` AS `a`
