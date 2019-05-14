@@ -1,9 +1,9 @@
 CREATE TABLE `friendships` (
 	`following` INT UNSIGNED NOT NULL,  # フォローしているユーザーID
 	`followed` INT UNSIGNED NOT NULL,   # フォローされているユーザーID
-	`created_at` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,  # このカラムを追加したのでインデックスは要再検討
-	PRIMARY KEY (`following`, `followed`),
-	KEY (`followed`, `following`)
+	`created_at` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+	PRIMARY KEY (`following`, `created_at`),
+	KEY (`followed`, `created_at`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 CREATE TABLE `friendships_logs` (
