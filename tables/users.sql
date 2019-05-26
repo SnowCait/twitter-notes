@@ -5,7 +5,10 @@ CREATE TABLE `users` (  # or accounts
 	`phone_number` BIGINT,
 	`email` VARCHAR(255),
 	`created_at` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
-	PRIMARY KEY (`id`)
+	PRIMARY KEY (`id`),
+	UNIQUE KEY (`screen_name`),
+	UNIQUE KEY (`phone_number`),
+	UNIQUE KEY (`email`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 CREATE TABLE `profiles` (
