@@ -12,7 +12,7 @@ CREATE TABLE `users` (  # or accounts
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 CREATE TABLE `profiles` (
-	`id` BIGINT UNSIGNED NOT NULL,
+	`user_id` BIGINT UNSIGNED NOT NULL,
 	`name` VARCHAR(50) NOT NULL,
 	`introduction` VARCHAR(160),
 	`place` VARCHAR(30),
@@ -21,7 +21,7 @@ CREATE TABLE `profiles` (
 	`icon_url` VARCHAR(100),
 	`header_url` VARCHAR(100),
 	`created_at` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
-	PRIMARY KEY (`id`)
+	PRIMARY KEY (`user_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 # NOTE
