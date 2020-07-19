@@ -4,3 +4,4 @@
 
 ## Authentication
 - [Overview — Twitter Developers](https://developer.twitter.com/en/docs/basics/authentication/overview)
+- [OAuth 対応 Twitter クライアント作成メモ](https://gist.github.com/0mg/5276918)
