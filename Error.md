@@ -1,5 +1,11 @@
 # Error
 
+## `/oauth/request_token`
+```json
+{"errors":[{"code":32,"message":"Could not authenticate you."}]}
+```
+[知識がなくても解決できていたのか？ | Ken's blog @teaplanet](https://blog.teapla.net/2014/05/5115/)
+
 ## BOT として一時的にアカウントが停止
 
 アカウントにログインして ReCapture と SMS 認証をして BOT でないことを証明すれば解除される。
