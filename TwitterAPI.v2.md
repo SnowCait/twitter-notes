@@ -11,3 +11,4 @@
     - [OAuthとC#でマルチバイト文字を扱う - nyanp::blog](http://nyanp.hatenablog.com/entry/20100504/p1)
     - [[観] C# で OAuth](http://watcher.moe-nifty.com/memo/2009/04/c-oauth-c097.html)
   - [.Net FrameworkのUriエンコードメソッドの違い « Bluestick.JP 開発メモ](http://bluestick.jp/tech/index.php/archives/266)
+    - [URLエンコードの大文字小文字でハマった : せきのぶろぐ](http://blog.livedoor.jp/seki1109/archives/51701360.html)
