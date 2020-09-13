@@ -1,5 +1,19 @@
 # Error
 
+## Client Forbidden
+
+```json
+{
+    "client_id": "12345",
+    "required_enrollment": "Standard Basic",
+    "detail": "When authenticating requests to the Twitter API v2 endpoints, you must use keys and tokens from a Twitter developer app that is attached to a Project. You can create a project via the developer portal.",
+    "registration_url": "https://developer.twitter.com/en/portal/opt-in",
+    "title": "Client Forbidden",
+    "reason": "client-not-enrolled",
+    "type": "https://api.twitter.com/2/problems/client-forbidden"
+}
+```
+
 ## `/oauth/request_token`
 ```json
 {"errors":[{"code":32,"message":"Could not authenticate you."}]}
