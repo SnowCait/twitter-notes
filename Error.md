@@ -1,5 +1,7 @@
 # Error
 
+[Twitter API Response Codes & Error Support | Twitter Developer](https://developer.twitter.com/en/support/twitter-api/error-troubleshooting)
+
 ## Client Forbidden
 
 ```json
