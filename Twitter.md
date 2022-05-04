@@ -6,6 +6,7 @@
 - [大規模SNSのボトルネックとソリューション (1/4) - ITmedia エンタープライズ](https://www.itmedia.co.jp/enterprise/articles/0808/29/news020.html)
 - [twitterみたいなマイクロブログを作るとしたらどう実装する？：一般システムエンジニアの刻苦勉励：オルタナティブ・ブログ](https://blogs.itmedia.co.jp/yohei/2009/03/twitter-7e49.html)
 - [1000万ユーザに耐えるサーバを作ってみた](https://zenn.dev/higashimura/articles/74c6e6bf63a133)
+- [Announcing Snowflake](https://blog.twitter.com/engineering/en_us/a/2010/announcing-snowflake)
 
 ## Text Editor
 - [twitter/TwitterTextEditor: A standalone, flexible API that provides a full-featured rich text editor for iOS applications.](https://github.com/twitter/TwitterTextEditor)
