@@ -7,6 +7,7 @@
 - [1000万ユーザに耐えるサーバを作ってみた](https://zenn.dev/higashimura/articles/74c6e6bf63a133)
 - [Announcing Snowflake](https://blog.twitter.com/engineering/en_us/a/2010/announcing-snowflake)
   - [Facebook, Twitter, Instagram等がどうやってIDを生成しているのか まとめ - Qiita](https://qiita.com/daisy1754/items/98a6e6b17d8161eab081)
+- [Rebuilding Twitter’s public API](https://blog.twitter.com/engineering/en_us/topics/infrastructure/2020/rebuild_twitter_public_api_2020)
 
 ![](https://pbs.twimg.com/media/Fh6qtzdUAAARaTI?format=jpg&name=large)
 
