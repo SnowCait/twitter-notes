@@ -8,6 +8,8 @@
 - [Announcing Snowflake](https://blog.twitter.com/engineering/en_us/a/2010/announcing-snowflake)
   - [Facebook, Twitter, Instagram等がどうやってIDを生成しているのか まとめ - Qiita](https://qiita.com/daisy1754/items/98a6e6b17d8161eab081)
 
+![](https://pbs.twimg.com/media/Fh6qtzdUAAARaTI?format=jpg&name=large)
+
 ## Text Editor
 - [twitter/TwitterTextEditor: A standalone, flexible API that provides a full-featured rich text editor for iOS applications.](https://github.com/twitter/TwitterTextEditor)
 - [TwitterTextEditor Reference](https://twitter.github.io/TwitterTextEditor/doc/)
