@@ -9,8 +9,8 @@
   - [Facebook, Twitter, Instagram等がどうやってIDを生成しているのか まとめ - Qiita](https://qiita.com/daisy1754/items/98a6e6b17d8161eab081)
 - [Rebuilding Twitter’s public API](https://blog.twitter.com/engineering/en_us/topics/infrastructure/2020/rebuild_twitter_public_api_2020)
 
-![](https://pbs.twimg.com/media/Fh6qtzdUAAARaTI?format=jpg&name=large)
-![](https://pbs.twimg.com/media/Fh7qk4VakAA-Qrk?format=jpg&name=4096x4096)
+![https://twitter.com/elonmusk/status/1593899029531803649](https://pbs.twimg.com/media/Fh6qtzdUAAARaTI?format=jpg&name=large)
+![https://twitter.com/512x512/status/1593969412843147264](https://pbs.twimg.com/media/Fh7qk4VakAA-Qrk?format=jpg&name=4096x4096)
 
 ## Text Editor
 - [twitter/TwitterTextEditor: A standalone, flexible API that provides a full-featured rich text editor for iOS applications.](https://github.com/twitter/TwitterTextEditor)
