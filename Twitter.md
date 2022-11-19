@@ -10,7 +10,8 @@
 - [Rebuilding Twitter’s public API](https://blog.twitter.com/engineering/en_us/topics/infrastructure/2020/rebuild_twitter_public_api_2020)
 
 ![https://twitter.com/elonmusk/status/1593899029531803649](https://pbs.twimg.com/media/Fh6qtzdUAAARaTI?format=jpg&name=large)
-![https://twitter.com/512x512/status/1593969412843147264](https://pbs.twimg.com/media/Fh7qk4VakAA-Qrk?format=jpg&name=4096x4096)
+<!-- ![https://twitter.com/512x512/status/1593969412843147264](https://pbs.twimg.com/media/Fh7qk4VakAA-Qrk?format=jpg&name=4096x4096) -->
+![https://twitter.com/alexxubyte/status/1594008281340530688](https://pbs.twimg.com/media/Fh8OE2jUAAEIVRR?format=jpg&name=4096x4096)
 
 ## Text Editor
 - [twitter/TwitterTextEditor: A standalone, flexible API that provides a full-featured rich text editor for iOS applications.](https://github.com/twitter/TwitterTextEditor)
