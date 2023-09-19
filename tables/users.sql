@@ -11,6 +11,13 @@ CREATE TABLE `users` (  # or accounts
 	UNIQUE KEY (`email`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
+CREATE TABLE `roles` (
+	`user_id` BIGINT UNSIGNED NOT NULL,
+	`role` TINYINT UNSIGNED NOT NULL,
+	`created_at` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+	PRIMARY KEY (`user_id`, `role`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
 CREATE TABLE `profiles` (
 	`user_id` BIGINT UNSIGNED NOT NULL,
 	`name` VARCHAR(50) NOT NULL,
