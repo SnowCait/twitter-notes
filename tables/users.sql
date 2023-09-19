@@ -19,7 +19,7 @@ CREATE TABLE `roles` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 # [role]
-# 0: Guest
+# 0 or no record: Guest
 # 1: Authorized
 # 99: Administrator
 
