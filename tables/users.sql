@@ -18,6 +18,11 @@ CREATE TABLE `roles` (
 	PRIMARY KEY (`user_id`, `role`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
+# [role]
+# 0: Guest
+# 1: Authorized
+# 99: Administrator
+
 CREATE TABLE `profiles` (
 	`user_id` BIGINT UNSIGNED NOT NULL,
 	`name` VARCHAR(50) NOT NULL,
