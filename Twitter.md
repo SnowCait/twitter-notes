@@ -10,6 +10,7 @@
 - 2013年: [The Architecture Twitter Uses to Deal with 150M Active Users, 300K QPS, a 22 MB/S Firehose, and Send Tweets in Under 5 Seconds - High Scalability -](http://highscalability.com/blog/2013/7/8/the-architecture-twitter-uses-to-deal-with-150m-active-users.html)
 - 2017年: [The Infrastructure Behind Twitter: Scale](https://blog.twitter.com/engineering/en_us/topics/infrastructure/2017/the-infrastructure-behind-twitter-scale)
 - 2020年: [Rebuilding Twitter’s public API](https://blog.twitter.com/engineering/en_us/topics/infrastructure/2020/rebuild_twitter_public_api_2020)
+- 2010年: [Twitter Streaming API Architecture | PPT](https://www.slideshare.net/slideshow/chirp-2010streamingapiarchpost/3872496)
 
 ![https://twitter.com/elonmusk/status/1593899029531803649](https://pbs.twimg.com/media/Fh6qtzdUAAARaTI?format=jpg&name=large)
 <!-- ![https://twitter.com/512x512/status/1593969412843147264](https://pbs.twimg.com/media/Fh7qk4VakAA-Qrk?format=jpg&name=4096x4096) -->
