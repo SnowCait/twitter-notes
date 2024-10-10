@@ -11,6 +11,7 @@
 - 2017年: [The Infrastructure Behind Twitter: Scale](https://blog.twitter.com/engineering/en_us/topics/infrastructure/2017/the-infrastructure-behind-twitter-scale)
 - 2020年: [Rebuilding Twitter’s public API](https://blog.twitter.com/engineering/en_us/topics/infrastructure/2020/rebuild_twitter_public_api_2020)
 - 2010年: [Twitter Streaming API Architecture | PPT](https://www.slideshare.net/slideshow/chirp-2010streamingapiarchpost/3872496)
+- [http - Twitter's method for streaming API on w3c - Stack Overflow](https://stackoverflow.com/questions/19200904/twitters-method-for-streaming-api-on-w3c)
 
 ![https://twitter.com/elonmusk/status/1593899029531803649](https://pbs.twimg.com/media/Fh6qtzdUAAARaTI?format=jpg&name=large)
 <!-- ![https://twitter.com/512x512/status/1593969412843147264](https://pbs.twimg.com/media/Fh7qk4VakAA-Qrk?format=jpg&name=4096x4096) -->
