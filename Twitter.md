@@ -8,11 +8,12 @@
 - 2010年: [Announcing Snowflake](https://blog.twitter.com/engineering/en_us/a/2010/announcing-snowflake)
   - [Facebook, Twitter, Instagram等がどうやってIDを生成しているのか まとめ - Qiita](https://qiita.com/daisy1754/items/98a6e6b17d8161eab081)
 - 2013年: [The Architecture Twitter Uses to Deal with 150M Active Users, 300K QPS, a 22 MB/S Firehose, and Send Tweets in Under 5 Seconds - High Scalability -](http://highscalability.com/blog/2013/7/8/the-architecture-twitter-uses-to-deal-with-150m-active-users.html)
-- 2017年: [The Infrastructure Behind Twitter: Scale](https://blog.twitter.com/engineering/en_us/topics/infrastructure/2017/the-infrastructure-behind-twitter-scale)
+- 2017年: [The Infrastructure Behind Twitter: Scale](https://blog.x.com/engineering/en_us/topics/infrastructure/2017/the-infrastructure-behind-twitter-scale)
 - 2020年: [Rebuilding Twitter’s public API](https://blog.twitter.com/engineering/en_us/topics/infrastructure/2020/rebuild_twitter_public_api_2020)
 - 2010年: [Twitter Streaming API Architecture | PPT](https://www.slideshare.net/slideshow/chirp-2010streamingapiarchpost/3872496)
 - [http - Twitter's method for streaming API on w3c - Stack Overflow](https://stackoverflow.com/questions/19200904/twitters-method-for-streaming-api-on-w3c)
 - 2014年: [Manhattan, our real-time, multi-tenant distributed database for Twitter scale](https://blog.x.com/engineering/en_us/a/2014/manhattan-our-real-time-multi-tenant-distributed-database-for-twitter-scale)
+- 2017年: [Twitterを支えるインフラストラクチャ - ネットワークのスケールアップ，ストレージ，プロビジョニング - InfoQ](https://www.infoq.com/jp/news/2017/02/scaling-twitter-infrastructure/)
 
 ![https://twitter.com/elonmusk/status/1593899029531803649](https://pbs.twimg.com/media/Fh6qtzdUAAARaTI?format=jpg&name=large)
 <!-- ![https://twitter.com/512x512/status/1593969412843147264](https://pbs.twimg.com/media/Fh7qk4VakAA-Qrk?format=jpg&name=4096x4096) -->
